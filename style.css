@@ -3,33 +3,33 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: 'Roboto', sans-serif;
   min-width:1400px
 }
 
+/* navbar */
 .navbar {
   top: 0;
   padding-top: 50px;
   width: 60%;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
 }
-
-.navbar-item-sx {
-  margin: 20px;
+.navbar-item {
+  text-align: center;
+  margin: 40px;
   text-decoration: none;
   color: black;
-  display: inline-block;
 }
-.navbar-item-dx {
-  margin: 20px;
-  margin-left: 450px;
-  text-decoration: none;
-  color: black;
-  display: inline-block;
+.title-item:hover {
+  color: lightgrey;
 }
 
+
+/* bottone */
 .button {
   margin: 20px;
   text-decoration: none;
@@ -39,7 +39,20 @@ body {
   border-radius: 5px;
   display: inline-block;
 }
+.button:hover {
+  background: grey;
+  color: white;
+}
 
+/* menu a tendina */
 .list {
   display: none;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+p {
+  padding: 20px 40px;
+}
+.link:hover {
+  color: lightgrey;
 }

@@ -1,6 +1,5 @@
-
-$(".navbar-item-sx").each(function(){
-  $(this).click(function(){
-    $(".list").show();
-  });
+$(".navbar-item").click(function(){
+  $(".list").hide();
+  $(this).children().show();
+  console.log($(this).children());
 })
