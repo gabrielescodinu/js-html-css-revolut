@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  min-width:1400px
+}
+
+.navbar {
+  top: 0;
+  padding-top: 50px;
+  width: 60%;
+  margin: auto;
+}
+
+.navbar-item-sx {
+  margin: 20px;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+.navbar-item-dx {
+  margin: 20px;
+  margin-left: 450px;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+
+.button {
+  margin: 20px;
+  text-decoration: none;
+  padding: 20px;
+  background: orange;
+  color: white;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.list {
+  display: none;
+}
